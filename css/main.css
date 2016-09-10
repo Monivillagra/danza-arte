@@ -1,0 +1,146 @@
+/* Inserta tu codigo aqui */
+.titulo {
+	text-align: center;
+}
+
+.menu {
+	text-decoration: none;
+	color: black;
+    padding: 0% 10%;
+}
+
+.back1 {
+	background-image: url(../img/dance_1.jpg);
+	width: 100%;
+	height: 480px;
+}
+
+.titulo2 {
+	font-size: 40px;
+	color: white;
+	padding: 5%;
+}
+
+.parrafo {
+	color: white;
+    padding: 5%;
+    width: 185px;
+    font-size: small;
+    margin-top: -10%;
+}
+
+.boton {
+	width: 5%;
+    height: 25px;
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 0% 5%;
+    margin: 0% 5%;
+}
+
+.back2 {
+	background-image: url(../img/textura_2.jpg);
+	width: 100%;
+	height: 400px;
+}
+
+.parrafo2 {
+	text-align: center;
+	padding: 5% 32%;
+}
+
+.deco1 {
+	width: 10%;
+    padding: 0% 45%;
+    margin-top: -9%;
+}
+
+.boton2 {
+    margin: 0% 40%;
+    text-align: center;
+    color: white;
+    height: 20px;
+    background-color: #3345a9;
+    border-radius: 5%;
+    width: 10%;
+    padding: 1% 5%;
+}
+
+.back3 {
+	background-image: url(../img/instructor_4.jpg);
+    width: 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid black;
+}
+
+.back4 {
+	background-image: url(../img/profesor_9.jpg);
+    width: 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid black;
+}
+
+.boton3 {
+	margin: -5% 33%;
+    text-align: center;
+    height: 12px;
+    background-color: #3345a9;
+    width: 20%;
+    padding: 2% 10%;
+    color: white;
+}
+
+.back5 {
+	background-image: url(../img/textura_2.jpg);
+	width: 100%;
+	height: 250px;
+}
+
+.parrafo3 {
+	text-align: center;
+    padding: 5% 22%;
+    font-size: 30px;
+}
+
+.parrafo4 {
+	color: white;
+    padding: 5%;
+    width: 345px;
+    font-size: small;
+    margin-top: 0%;
+    text-align: left;
+}
+
+.titulo3 {
+	color: white;
+    padding: 0% 5%;
+    font-size: small;
+    text-align: left;
+}
+
+.back6 {
+	background-color: #2439ad;
+    width: 100%;
+    height: 400px;
+}
+
+.parrafo5 {
+	color: white;
+    padding: 0% 5%;
+    width: 125px;
+    font-size: small;
+    text-align: left;
+}
+
+.map {
+	position: relative;
+    left: 660px;
+    bottom: 250px;
+    width: 40%;
+    height: 270px;
+}
