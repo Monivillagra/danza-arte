@@ -4,12 +4,93 @@
 	<meta charset="UTF-8">
 	<title>Escuela de Danza</title>
 	<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Montserrat:400,700'>
-	<link rel="stylesheet" type="text/css" href="css/grid-system.css">
+	<link rel="stylesheet" href="css/simplegrid.css">
+	<link rel="stylesheet" href="css/simplegrid.min.css">
 	<link rel="stylesheet" type="text/css" href="css/utilities.css">
 	<link rel="stylesheet" type="text/css" href="css/common.css">
 	<link rel="stylesheet" type="text/css" href="css/clases.css">
 </head>
 <body>
-	<!-- Inserta tu código aqui -->
+		<!-- header common.css-->
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h1><a class="titulo" href="index.html">ESCUELA DE DANZA</a></h1>
+				</div>
+				<div class="col-12">
+					<nav>
+						<ul>
+							<li><a class="menu" href="nosotros.html">Nosotros</a></li>
+							<li><a class="menu" href="clases.html">Clases</a></li>
+							<li><a class="menu" href="blog.html">Blog</a></li>
+							<li><a class="menu" href="#">Contáctanos</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- section1 -->
+	<section>
+		<div class="container backclas">
+			<h1 class="titclas">OFERTA DE CLASES</h1>
+				<div class="row todas">
+					<div class="img1">
+						<div class="col-2 boxclas">
+							<h2 class="titcas2">Ballet</h2>
+							<p class="pclas">El ballet es la base de casi todos los estilos de baile</p>
+						</div>
+					</div>
+					<div class="img2">
+						<div class="col-2 boxclas">
+							<h2 class="titcas2">Dance MODERM</h2>
+							<p class="pclas">descripción del curso en dos líneas como máximo</p>
+						</div>
+					</div>
+					<div class="img3">
+						<div class="col-2 boxclas">
+							<h2 class="titcas2">JAZZ LIRIC</h2>
+							<p class="pclas">descripción del curso en dos líneas como máximo</p>
+						</div>
+					</div>
+				</div>
+				<!-- imagen2 -->
+				<div class="row todas">
+					<div class="img4">
+						<div class="col-2 boxclas">
+							<h2 class="titcas2">ARABIC DANCE</h2>
+							<p class="pclas">descripción del curso en dos líneas como máximo</p>
+						</div>
+					</div>
+					<div class="img5">
+						<div class="col-2 boxclas">
+							<h2 class="titcas2">KIDS LESSONS</h2>
+							<p class="pclas">descripción del curso en dos líneas como máximo</p>
+						</div>
+					</div>
+					<div class="img6">
+						<div class="col-2 boxclas">
+							<h2 class="titcas2">YOGA DANCE</h2>
+							<p class="pclas">descripción del curso en dos líneas como máximo</p>
+						</div>
+					</div>
+				</div>
+		</div>
+	</section>
+			<!-- formulario common.css-->
+	<section class="formulario">	
+		<form>
+			<h2 class="tform">Contáctanos</h2>
+			<input type="text" name="n" placeholder="Nombre">
+			<input type="text" name="e" placeholder="Email">
+			<textarea name="m" placeholder="Mensaje"></textarea>
+			<input type="button" value="ENVIAR" id="botonf">
+		</form>
+	</section>
+	<!-- pie common.css-->
+	<footer class="back8">
+		<p class="container parrafo6">©Escuela de danza. Todos los derechos reservados.</p>
+	</footer>
 </body>
 </html>

@@ -4,12 +4,88 @@
 	<meta charset="UTF-8">
 	<title>Escuela de Danza</title>
 	<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Montserrat:400,700'>
-	<link rel="stylesheet" type="text/css" href="css/grid-system.css">
+	<link rel="stylesheet" href="css/simplegrid.css">
+	<link rel="stylesheet" href="css/simplegrid.min.css">
 	<link rel="stylesheet" type="text/css" href="css/utilities.css">
 	<link rel="stylesheet" type="text/css" href="css/common.css">
 	<link rel="stylesheet" type="text/css" href="css/blog.css">
 </head>
 <body>
-	<!-- Inserta tu código aqui -->
+		<!-- header common.css-->
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h1><a class="titulo" href="index.html">ESCUELA DE DANZA</a></h1>
+				</div>
+				<div class="col-12">
+					<nav>
+						<ul>
+							<li><a class="menu" href="nosotros.html">Nosotros</a></li>
+							<li><a class="menu" href="clases.html">Clases</a></li>
+							<li><a class="menu" href="blog.html">Blog</a></li>
+							<li><a class="menu" href="#">Contáctanos</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- section1 -->
+	<section>
+		<div class="container-fluid backblog">
+			<h1 class="tblog">BLOG</h1>
+			<div class="row container">
+				<div class="col-3">
+					<img class="blog1" src="img/blog1.jpg" alt="">
+				</div>
+				<div class="col-9 caja">
+					<h2 class="tblog2">TITULO DEL ARTÍCULO</h2>
+					<p class="pfecha">Fecha</p>
+					<p class="pblog">Descripción del curso en dos líneas como máximo.Descripción del curso en dos líneas como máximo.Descripción del curso en dos líneas como máximo.</p>
+					<p class="pblog">Descripción del curso en dos líneas como máximo.Descripción del curso en dos líneas como máximo.Descripción del curso en dos líneas como máximo.</p>
+					<button class="botonb">Ver más</button>
+				</div>
+			</div>
+			<div class="row container">
+				<div class="col-3">
+					<img class="blog2" src="img/profesor_5.jpg" alt="">
+				</div>
+				<div class="col-9 caja">
+					<h2 class="tblog2">TITULO DEL ARTÍCULO</h2>
+					<p class="pfecha">Fecha</p>
+					<p class="pblog">Descripción del curso en dos líneas como máximo.Descripción del curso en dos líneas como máximo.Descripción del curso en dos líneas como máximo.</p>
+					<p class="pblog">Descripción del curso en dos líneas como máximo.Descripción del curso en dos líneas como máximo.Descripción del curso en dos líneas como máximo.</p>
+					<button class="botonb">Ver más</button>
+				</div>
+			</div>
+			<div class="row container">
+				<div class="col-3">
+					<img class="blog3" src="img/instructor_1.jpg" alt="">
+				</div>
+				<div class="col-9 caja">
+					<h2 class="tblog2">TITULO DEL ARTÍCULO</h2>
+					<p class="pfecha">Fecha</p>
+					<p class="pblog">Descripción del curso en dos líneas como máximo.Descripción del curso en dos líneas como máximo.Descripción del curso en dos líneas como máximo.</p>
+					<p class="pblog">Descripción del curso en dos líneas como máximo.Descripción del curso en dos líneas como máximo.Descripción del curso en dos líneas como máximo.</p>
+					<button class="botonb">Ver más</button>
+				</div>
+			</div>
+		</div>
+	</section>
+		<!-- formulario common.css-->
+		<section class="formulario">	
+			<form>
+				<h2 class="tform">Contáctanos</h2>
+				<input type="text" name="n" placeholder="Nombre">
+				<input type="text" name="e" placeholder="Email">
+				<textarea name="m" placeholder="Mensaje"></textarea>
+				<input type="button" value="ENVIAR" id="botonf">
+			</form>
+		</section>
+		<!-- pie common.css-->
+		<footer class="back8">
+			<p class="container parrafo6">©Escuela de danza. Todos los derechos reservados.</p>
+		</footer>
 </body>
 </html>

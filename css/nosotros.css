@@ -1,1 +1,126 @@
-/* Inserta tu codigo aqui */
+.backnos {
+	background: url(../img/dance_7.jpg);
+	height: 410px;
+    width: 100%;
+    background-position: left;
+}
+
+.backtnos{
+    width: 25%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.2);
+    color: white;
+    padding: 0% 5%;
+    margin: 8% 30%;
+}
+
+.titulocaja {
+	padding: 5% 0%;
+}
+
+.parrafocaja {
+	padding: 5% 0%;
+}
+
+.backnos2 {
+    background: url(../img/cubes.png);
+    width: 100%;
+    height: 300px;
+}
+
+.titnos {
+    padding: 5%;
+    font-size: x-large;
+}
+
+.pnos {
+    text-align: center;
+    padding: 5%;
+    font-size: larger;
+}
+
+hr {
+    width: 90%;
+    height: 1px;
+    background: rgba(158, 158, 158, 0.59);
+}
+
+.boxnos {
+    padding: 5%;
+    text-align: center;
+    color: rgba(158, 158, 158, 0.59);
+}
+
+.titinst {
+    padding: 5% 45%;
+    font-size: 25px;
+}
+
+.tinst {
+    font-size: 15px;
+    color: black;
+    margin: 0%;
+    padding-top: 5%;
+}
+
+.pinst {
+    font-size: 15px;
+    padding-top: 5%;   
+}
+
+.imginst1 {
+    padding-bottom: 5%;
+}
+
+.img1 {
+    width: 100%;
+    height: 200px;
+}
+
+.img2 {
+    width: 100%;
+    height: 200px;
+}
+
+.img3 {
+    width: 100%;
+    height: 200px;
+}
+
+.img4 {
+    width: 100%;
+    height: 200px;
+}
+
+.img5 {
+    width: 100%;
+    height: 200px;
+}
+
+.img6 {
+    width: 100%;
+    height: 200px;
+}
+
+.img7 {
+    width: 100%;
+    height: 200px;
+}
+
+.img8 {
+    width: 100%;
+    height: 200px;
+}
+
+.backnos3 {
+	background-image: url(../img/cubes.png);
+	width: 100%;
+	height: 250px;
+}
+
+.fnos {
+    text-align: center;
+    padding: 8%;
+    font-size: xx-large;
+    font-family: cursive;
+}

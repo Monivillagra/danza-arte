@@ -1,1 +1,110 @@
-/* Inserta tu codigo aqui */
+.backclas {
+    background: rgba(158, 158, 158, 0.2);
+    width: 100%;
+    height: 1000px;
+}
+
+.titclas {
+    text-align: center;
+    padding: 5%;
+}
+
+.pclas {
+    margin: 5% 1%;
+}
+
+.boxclas {
+    width: 35%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.53);
+    color: white;
+    padding: 5% 10%;
+    margin: 25% 20%;
+}
+
+.todas {
+    float: right;
+    display: -webkit-inline-box;
+}
+
+.img1 {
+    background-image: url(../img/dance_12.jpg);
+    width: 30%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    margin: 1%;
+}
+
+.img2 {
+    background-image: url(../img/breakdance.jpg);
+    width: 30%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    margin: 1%;
+}
+
+.img3 {
+    background-image: url(../img/lirical-jazz.jpg);
+    width: 30%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    margin: 1%;
+}
+
+.img4 {
+    background-image: url(../img/arabe.jpg);
+    width: 30%;
+    height: 300px;
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    margin: 1%;  
+}
+
+.img5 {
+    background-image: url(../img/little.jpg);
+    width: 30%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 1%;
+}
+
+.img6 {
+    background-image: url(../img/yoga.jpg);
+    width: 30%;
+    height: 300px;
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    margin: 1%;   
+}
+
+.imgb {
+    width: 100%;
+    height: 400px;
+}
+.imgdm {
+	width: 100%;
+    height: 400px;
+}
+.imgjl {
+	width: 100%;
+    height: 400px;
+}
+.imgad {
+    width: 100%;
+    height: 400px;	
+}
+.imgkl {
+    width: 100%;
+    height: 400px;
+}
+.imgyd {
+    width: 100%;
+    height: 400px;
+}

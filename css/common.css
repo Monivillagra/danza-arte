@@ -1,1 +1,81 @@
 /* Inserta tu codigo que es común para todas las páginas aqui */
+/*header*/
+.titulo {
+	text-align: center;
+	font-family: Neoteric-Bold;
+	color: #1c1c54;
+    font-size: x-large;
+    padding: 1%;
+    margin: 1%;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+} 
+
+.menu {
+	text-decoration: none;
+    color: #1c1c54;
+    padding: 2% 8%;
+    margin: 0% 1%;
+    line-height: 30px;
+    float: left;
+}
+
+
+/*formulario*/
+.formulario {
+    background-image: url(../img/shoes_1.jpg);
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: 100vw 50vw;
+}
+
+form {
+    padding: 10%;
+    width: 450px;
+}
+
+.tform {
+    color: #1d2a67;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: 1px solid rgb(158, 158, 158);
+}
+
+textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+#botonf {
+    background: #1d2a67;
+    color: white;
+    padding: 3%;
+    border-radius: 3px;
+}
+
+/*foot*/
+.back8 {
+    background: #141f5f;
+    height: 50px;
+	padding-right: 50%;
+    padding-top: 1%;
+}
+
+.parrafo6 {
+    color: white;
+    padding-top: 2%;
+    font-size: smaller
+}
